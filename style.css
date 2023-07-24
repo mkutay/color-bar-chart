@@ -23,7 +23,7 @@ text#color2 {
 } */
 
 div#graph {
-  margin: 25em 0 0 2em;
+  /* margin: 25em 0 0 2em; */
   border-style: solid;
   border-color: black;
   border-width: 0 0 2px 2px;
