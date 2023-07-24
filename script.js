@@ -66,6 +66,7 @@ function addBar() {
 
   let newText = document.createElement("text", 0);
   newText.id = "color" + (bar + 1);
+  newText.setAttribute("onclick", "if (document.getElementById('color" + (bar + 1) + "').style.color == '" + color + "') { document.getElementById('color" + (bar + 1) + "').style.color = 'white' } else { document.getElementById('color" + (bar + 1) + "').style.color = '" + color + "' } ")
 
   document.getElementById("graph").insertBefore(newText, document.getElementById("lastg"));
 
